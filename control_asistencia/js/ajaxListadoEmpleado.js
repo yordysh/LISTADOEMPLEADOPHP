@@ -77,6 +77,7 @@ $(function () {
     var searchFin = "";
     var empleadosLista = $("#vroficina").val();
     var codPersonal = $("#vrcodpersonal").val();
+
     $.ajax({
       url: "./c_almacen.php",
       data: {

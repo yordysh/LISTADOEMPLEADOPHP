@@ -10,7 +10,7 @@ if ($_POST['accion'] == 'buscarempleado') {
     $searchfin = $_POST['searchfin'];
     $bd  = $_POST['empleadosLista'];
     $codPersonal  = $_POST['codPersonal'];
-    echo ($bd);
+
 
     $respuesta = c_almacen::c_buscar_empleado($bd, $codPersonal, $searchinicio, $searchfin);
     echo $respuesta;

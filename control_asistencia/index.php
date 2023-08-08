@@ -1,11 +1,10 @@
 <?php
 session_start();
-// require_once "./funciones/f_funcion.php";
 
-$_SESSION["cod"] = $codusuario;
-var_dump($codusuario);
-$_SESSION["ofi"] = $oficina;
-var_dump($oficina);
+$codusuario = $_SESSION["cod"];
+
+$oficina = $_SESSION["ofi"];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
